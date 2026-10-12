@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ScamShield Monitor
 
-## Getting Started
+ScamShield Monitor is a lightweight cybersecurity dashboard built to surface scam activity, monitor suspicious patterns, and help users understand common scam behaviors through a structured intelligence interface.
 
-First, run the development server:
+## Project overview
+
+This project is a demo-style monitoring app for scam intelligence. It brings together a set of curated scam feeds, category views, and knowledge entries so users can quickly understand the kinds of threats being reported and the patterns behind them.
+
+The active experience focuses on:
+
+- Live scam feed for recent activity and emerging reports
+- Explore Scams section for reviewing scam types and campaign patterns
+- Scam Encyclopedia for reference material on common scam tactics
+- About & Data Sources page for context on how the mock data is structured
+
+This is a front-end prototype intended for product demonstration and research workflows rather than a production security operations system.
+
+## Tech stack
+
+- Next.js App Router
+- React + TypeScript
+- Tailwind CSS
+- Recharts for dashboard-style visualizations
+- Lucide React icons
+
+## Project structure
+
+- `app/` — application routes and pages
+- `components/` — reusable UI sections and dashboard layout
+- `lib/` — mock intelligence data and helper utilities
+- `public/` — static assets
+
+## Getting started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the local development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Notes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The dashboard currently uses mock data to demonstrate scam monitoring workflows. The interface is intentionally simplified for demonstration and does not represent a live production intelligence pipeline.
 
-## Learn More
+Note: This will be used as the database for scam search agent:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

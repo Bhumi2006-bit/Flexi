@@ -6,13 +6,9 @@ import { cn } from "@/lib/utils";
 import { mockNotifications } from "@/lib/mock-data";
 
 const navigation = [
-  { href: "/", label: "Overview" },
   { href: "/live-scam-feed", label: "Live Scam Feed" },
   { href: "/explore", label: "Explore Scams" },
   { href: "/encyclopedia", label: "Scam Encyclopedia" },
-  { href: "/checker", label: "Link Checker" },
-  { href: "/trends", label: "Trends & Analytics" },
-  { href: "/report", label: "Report a Scam" },
   { href: "/about", label: "About & Data Sources" },
 ];
 
@@ -68,7 +64,7 @@ export function MainShell({ children }: { children: React.ReactNode }) {
             <div className="mb-5 flex items-center justify-between lg:block">
               <div>
                 <p className="text-[10px] uppercase tracking-[0.24em] text-slate-500">Threat lens</p>
-                <h2 className="mt-2 text-xl font-semibold text-white">Operations overview</h2>
+                <h2 className="mt-2 text-xl font-semibold text-white">Monitoring center</h2>
               </div>
               <Button variant="outline" className="lg:hidden">Filters</Button>
             </div>

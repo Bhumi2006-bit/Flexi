@@ -1,5 +1,1 @@
-import { OverviewPage } from "@/components/dashboard/overview-page";
-
-export default function Home() {
-  return <OverviewPage />;
-}
+export { default } from "./live-scam-feed/page";
