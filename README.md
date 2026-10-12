@@ -51,4 +51,4 @@ Then open http://localhost:3000 in your browser.
 The dashboard currently uses mock data to demonstrate scam monitoring workflows. The interface is intentionally simplified for demonstration and does not represent a live production intelligence pipeline.
 
 Note: This will be used as the database for scam search agent:
-
+https://flexi-alpha.vercel.app/
